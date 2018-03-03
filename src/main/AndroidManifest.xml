@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hp.pwszciechanow">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ikoneczka"
+        android:label="MyUCC"
+        android:roundIcon="@mipmap/ikonka"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity
+            android:name=".WyborActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SesjaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LuzActivity" />
+        <activity
+            android:name=".PlanActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KierunkiActivity"
+            android:label="@string/title_activity_kierunki"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GPlanActivity"
+            android:label="@string/title_activity_gplan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SalaActivity"
+            android:label="@string/title_activity_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".InformatykaActivity"
+            android:label="@string/title_activity_informatyka"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GSesjaActivity"
+            android:label="@string/title_activity_gsesja"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".BibliotekaActivity" />
+        <activity android:name=".KolaActivity" />
+        <activity android:name=".BiuroActivity" />
+        <activity android:name=".SportActivity" />
+        <activity android:name=".ImprezyActivity" />
+        <activity android:name=".GSalaActivity" />
+        <activity android:name=".AutorzyActivity" />
+        <activity android:name=".TerminarzActivity" />
+        <activity android:name=".KontaktActivity" />
+        <activity android:name=".HarmonogramActivity"></activity>
+    </application>
+
+</manifest>

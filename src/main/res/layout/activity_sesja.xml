@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17202a"
+    tools:context="com.example.hp.pwszciechanow.SesjaActivity">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="288dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Wybierz kierunek"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="#d4ac0d"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_editor_absoluteX="-3dp"
+        app:layout_constraintHorizontal_bias="0.4" />
+
+
+    <ScrollView
+android:layout_width="321dp"
+android:layout_height="450dp"
+android:layout_marginTop="19dp"
+android:clipToPadding="false"
+android:fillViewport="false"
+app:layout_constraintLeft_toLeftOf="parent"
+app:layout_constraintRight_toRightOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView29"
+tools:layout_constraintLeft_creator="1"
+tools:layout_constraintRight_creator="1"
+tools:layout_constraintTop_creator="1"
+tools:layout_editor_absoluteY="111dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="4500dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="23dp"
+    android:orientation="vertical"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView29"
+    tools:layout_constraintLeft_creator="1"
+    tools:layout_constraintRight_creator="1"
+    tools:layout_constraintTop_creator="1">
+
+    <Button
+        android:id="@+id/informatykaI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#d4ac0d"
+        android:onClick="informatykaI"
+        android:text="informatyka I rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/informatykaII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#d4ac0d"
+        android:onClick="informatykaII"
+        android:text="Informatyka II rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/informatykaIII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#d4ac0d"
+        android:onClick="informatykaIII"
+        android:text="Informatyka III rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/informatykaIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#d4ac0d"
+        android:onClick="informatykaIV"
+        android:textColor="#17202a"
+        android:text="Informatyka IV rok" />
+
+    <Button
+        android:id="@+id/infIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#d4ac0d"
+        android:onClick="infIn"
+        android:text="informatyka I rok sob.-niedz."
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/infIIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#d4ac0d"
+        android:onClick="infIIn"
+        android:text="Informatyka II ROK SOB.-Niedz."
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/infIIIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#d4ac0d"
+        android:onClick="infIIIn"
+        android:text="Informatyka III ROK SOB.-Niedz."
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/mibmI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FF5722"
+        android:onClick="mibmI"
+        android:text="Mechanika i budowa maszyn I rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/mibmII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FF5722"
+        android:onClick="mibmII"
+        android:text="Mechanika i budowa maszyn II rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/mibmIII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FF5722"
+        android:onClick="mibmIII"
+        android:text="Mechanika i budowa maszyn III rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/mibmIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FF5722"
+        android:onClick="mibmIV"
+        android:text="Mechanika i budowa maszyn IV rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/mibmIIIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FF5722"
+        android:onClick="mibmIIIn"
+        android:text="Mechanika i budowa maszyn III rok niestacjonarne"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/mibmIVn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FF5722"
+        android:onClick="mibmIVn"
+        android:text="Mechanika i budowa maszyn IV rok niestacjonarne"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaI"
+        android:text="Ekonomia I rok"
+        android:textColor="#17202a" />
+
+
+    <Button
+        android:id="@+id/rolnictwoI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="rolnictwoI"
+        android:text="rolnictwo I rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaII"
+        android:text="Ekonomia II rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaIII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaIII"
+        android:text="Ekonomia III rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaIn"
+        android:text="Ekonomia I rok niestacjonarne"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaIIfn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaIIfn"
+        android:text="EKonomia II ROK niestacjonarne( FiRP)"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaIIan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaIIan"
+        android:text="Ekonomia II rok niestacjonarne(Aifsp)"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaIIIfn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaIIIfn"
+        android:text="Ekonomia III rok niestacjonarne(FIRP)"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/ekonomiaIIIan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#B2FF59"
+        android:onClick="ekonomiaIIIan"
+        android:text="Ekonomia III rok niestacjonarne(AIFSP)"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/inzsI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#E0E0E0"
+        android:onClick="inzsI"
+        android:text="Inżynieria środowiska Irok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/inzsII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#E0E0E0"
+        android:onClick="inzsII"
+        android:text="inżynieria środowiska II rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/inzsIII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#E0E0E0"
+        android:onClick="inzsIII"
+        android:text="Inżynieria środowiska III rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/inzsIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#E0E0E0"
+        android:onClick="inzsIV"
+        android:text="Inżynieria środowiska IV rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/rolnictwoII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#CE93D8"
+        android:onClick="rolnictwoII"
+        android:text="Rolnictwo II rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/rolnictwoIII"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#CE93D8"
+        android:onClick="rolnictwoIII"
+        android:text="Rolnictwo III rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/rolnictwoIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#CE93D8"
+        android:onClick="rolnictwoIV"
+        android:text="Rolnictwo IV rok"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/rolnictwoIIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#CE93D8"
+        android:onClick="rolnictwoIIn"
+        android:text="Rolnictwo II rok niestacjonarne"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/rolnictwoIIIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#CE93D8"
+        android:onClick="rolnictwoIIIn"
+        android:text="Rolnictwo III rok niestacjonarne"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/rolnictwoIVn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#CE93D8"
+        android:onClick="rolnictwoIVn"
+        android:text="Rolnictwo IV rok niestacjonarne"
+        android:textColor="#17202a" />
+
+</LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
+

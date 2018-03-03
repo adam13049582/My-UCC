@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/poniedziałek"
+        android:title="Poniedziałek"
+        />
+
+    <item
+        android:id="@+id/wtorek"
+        android:title="Wtorek"/>
+
+    <item
+        android:id="@+id/środa"
+        android:title="Środa"/>
+
+    <item
+        android:id="@+id/czwartek"
+        android:title="Czwartek"/>
+
+    <item
+        android:id="@+id/Piątek"
+        android:title="Piątek"/>
+
+    <item
+        android:id="@+id/sobota"
+        android:title="Sobota"/>
+
+    <item
+        android:id="@+id/niedziela"
+        android:title="Niedziela"/>
+</menu>

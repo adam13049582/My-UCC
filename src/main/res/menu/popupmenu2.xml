@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/autorzy"
+        android:title="Autorzy"
+        />
+
+    <item
+        android:id="@+id/strona"
+        android:title="Przejdź do strony uczelni"/>
+
+    <item
+        android:id="@+id/harmonogram"
+        android:title="Harmonogram zjazdów"/>
+
+    <item
+        android:id="@+id/terminarz"
+        android:title="Organizacja roku akademickiego"/>
+    <item
+        android:id="@+id/kontakt"
+        android:title="Kontakt"/>
+
+</menu>
